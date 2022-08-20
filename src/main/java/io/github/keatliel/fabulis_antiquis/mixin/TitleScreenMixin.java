@@ -12,6 +12,6 @@ import io.github.keatliel.fabulis_antiquis.FabulisAntiquis;
 public class TitleScreenMixin {
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci) {
-		FabulisAntiquis.LOGGER.info("This line is printed by an example mod mixin!");
+		FabulisAntiquis.LOGGER.info("Legends into Gods");
 	}
 }
