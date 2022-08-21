@@ -5,6 +5,8 @@ import org.quiltmc.qsl.base.api.entrypoint.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import io.github.keatliel.fabulis_antiquis.item.Moditems;
+
 public class FabulisAntiquis implements ModInitializer {
 	public static final String MOD_ID = "fabulis-antiquis";
 	// This logger is used to write text to the console and the log file.
@@ -15,5 +17,7 @@ public class FabulisAntiquis implements ModInitializer {
 	@Override
 	public void onInitialize(ModContainer mod) {
 		LOGGER.info("Men into monsters, Monsters into myth, Myth into Legends", mod.metadata().name());
+
+		Moditems.registerModitems();
 	}
 }
