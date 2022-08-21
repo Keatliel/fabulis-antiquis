@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-      "layer0": "fabulis_antiquis:item/divine_blood"
+      "layer0": "fabulis-antiquis:item/divine_blood"
     }
 }
